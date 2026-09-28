@@ -2,14 +2,18 @@
 
 리눅스 강의(7섹션 · 65챕터)를 위한 **웹 학습 자료 2종**입니다. 둘 다 빌드나 서버 없이 브라우저로 바로 열리는 단일 HTML 파일입니다.
 
-| 파일 | 용도 | 크기 |
+| 파일 | 용도 | 바로 열기 |
 |---|---|---|
-| **`index.html`** | 커리큘럼 로드맵 — 전체 과정 구조를 트리/리스트로 탐색 | 80KB |
-| **`study.html`** | 학습 자습서 — 챕터별 본문·실습·퀴즈를 혼자 읽고 따라가는 교재 | 3.2MB |
+| **`index.html`** | 커리큘럼 로드맵 — 전체 과정 구조를 트리/리스트로 탐색 | [로드맵 열기](https://hacksung.github.io/linux-lecture-roadmap/) |
+| **`study.html`** | 학습 자습서 — 챕터별 본문·실습·퀴즈를 혼자 읽고 따라가는 교재 | [자습서 열기](https://hacksung.github.io/linux-lecture-roadmap/study.html) |
 
 두 페이지는 상단 바에서 서로 이동할 수 있습니다.
 
 ## 바로 사용하기
+
+설치 없이 바로 보려면 위 링크를 누르세요. 자습서는 3.2MB라 첫 로딩에 몇 초 걸릴 수 있습니다.
+
+로컬에서 쓰려면:
 
 ```bash
 git clone https://github.com/HackSung/linux-lecture-roadmap.git
