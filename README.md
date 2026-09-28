@@ -78,7 +78,6 @@ study.html               자습서 (데이터 내장, 단독 실행)
 study_template.html      자습서 UI 템플릿 (빌드 입력)
 
 study_content.json       자습서 본문 콘텐츠 (65챕터)
-study_content_v1.json    보강 전 버전 (비교·되돌리기용)
 data.json                커리큘럼 구조 (섹션·챕터·학습주제)
 data.min.json            data.json 압축본
 quiz_data.json           퀴즈 24문항
@@ -107,8 +106,9 @@ UI(레이아웃·스타일·동작)를 고칠 때는 `study_template.html`을 �
 ```bash
 python3 merge_study_content.py <섹션JSON_디렉터리>   # 스키마 검증 + 병합
 python3 build_study.py
-python3 compare_enrich.py                          # 분량 변화 확인(선택)
 ```
+
+`compare_enrich.py`는 콘텐츠를 크게 손볼 때 분량 변화를 확인하는 보조 도구입니다. 수정 전 `study_content.json`을 `study_content_v1.json`으로 복사해두면, 수정 후 챕터별 증감을 표로 비교해줍니다. 기준 파일이 없으면 비교를 건너뜁니다.
 
 `merge_study_content.py`는 병합과 함께 다음을 검사합니다.
 

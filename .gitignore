@@ -1,0 +1,5 @@
+# 콘텐츠 수정 전 비교용 스냅샷 (compare_enrich.py 입력, 로컬 전용)
+study_content_v1.json
+
+# macOS
+.DS_Store
